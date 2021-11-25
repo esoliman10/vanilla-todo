@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Titillium+Web"
+      rel="stylesheet"
+    />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>TO DO TASKS</h1>
+        <div id="date"></div>
+        <div class="clear">
+          <i class="fa fa-refresh"></i>
+        </div>
+      </div>
+
+      <div class="content">
+        <ul id="list">
+          <!-- Sample ng list na lalabas -->
+          <!-- <li class="item">
+                        <i class="fa fa-check-circle co" job="complete" id="0"></i>
+                        <p class="text lineThrough">Matulog</p>
+                        <i class="fa fa-trash-o de" job="delete" id="0"></i>
+                    </li> -->
+        </ul>
+      </div>
+      <div class="select">
+        <button value="completed" id="showCompleted" name="todos" class="filter-todo">
+          show completed
+        </button>
+        <button value="active" id="showActive" name="todos" class="filter-todo">
+          show active
+        </button>
+        <button value="all" id="showAll" name="todos" class="filter-todo">
+          show all
+        </button>
+      </div>
+      <div class="add-to-do">
+        <i class="fa fa-plus-circle"></i>
+        <input type="text" id="input" placeholder="Add todo task here" />
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

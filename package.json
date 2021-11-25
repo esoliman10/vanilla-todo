@@ -1,0 +1,26 @@
+{
+  "name": "cnc-vanilla-todos",
+  "version": "1.0.0",
+  "description": "practice",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cauldnclark/cnc-vanilla-todos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cauldnclark/cnc-vanilla-todos/issues"
+  },
+  "homepage": "https://github.com/cauldnclark/cnc-vanilla-todos#readme",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
